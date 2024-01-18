@@ -11,3 +11,16 @@ body{
     border-radius: 10px;
 
 }
+h1{
+    font-weight: 900;
+    font-size: 30px;
+}
+.search-form{
+    width:600px;
+    background: #eded78;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    
+}

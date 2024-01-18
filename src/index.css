@@ -1,14 +1,13 @@
 body{
-    background-color: #a5d9ff;
+    background-color: #ffa957;
     font-family: "Montserrat", sans-serif;
 }
 .weather-background{
-    background: white;
+    background: #eded78;
     max-width: 600px;
-    margin: 20px auto;
+    margin: 50px auto;
     padding: 20px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 10px;
 
 }
-s

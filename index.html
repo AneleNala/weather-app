@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-<div>
+<div class="background-style">
      <header>
      <form>
-        <input type="search" placeholder="Enter your city..." required>
-        <input type="submit" value="Search">
+        <input type="search" placeholder="Enter your city..."  required class="search-form" >
+        <input type="submit" value="Search" class="submit-button">
      </form> 
      </header>
-     
      <main>
-     <div>   
+<div class="weatherapp-info">
+    <div>   
      <h1>
         Soweto
      </h1>  
@@ -26,8 +29,13 @@
      Humidity , <strong>100%</strong> ,
      Windy: <strong>10 knots</strong>
      </p> 
-     </div>
-     <div>🌤️ 12°C</div>
+    </div>
+     <div class="weather-conditions">
+        <div class="weather-condition-icon">🌤️</div>
+        <div class="temperature-value">12</div>
+        <div class="temperature-metric">°C</div>
+    </div>
+</div>     
      </main>
 
     <footer>
@@ -37,7 +45,7 @@
         <a href="https://github.com/AneleNala/weather-app" target="blank">Git Hub</a> and website hosted
         <a href="https://weather-app-isimosezulu.netlify.app/" target="blank">Netlify</a>
     </footer>
+</div>    
 <script src="src/index.js"></script>
-</div>
 </body>
 </html>

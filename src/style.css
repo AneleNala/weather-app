@@ -1,1 +1,89 @@
+body{
+    background: #f65282;
+    font-family: "Inter", sans-serif;
+}
 
+header {
+    border-bottom: 1px solid #f9f7fe;
+    padding: 0 0 30px 0;
+}
+
+h1{
+    font-weight: 800;
+
+}
+
+p{
+  font-weight: 500;  
+  color:rgba(39, 33, 66, 0.4);
+}
+
+strong{
+    color:#f65282;
+}
+
+a{
+    color: #f65282;
+}
+
+.background-style{
+    background: #ffff;
+    width:600px;
+    margin:60px auto;
+    padding: 40px;
+    border-radius: 10px ;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+.search-form{
+    width: 450px;
+    padding: 20px 30px;
+    border-radius: 16px;
+    border: 1px solid #f6f8fa;
+    font-size:14px ;
+
+}
+.submit-button{
+    width:100px;
+    padding: 20px 30px;
+    border-radius: 12px;
+    background: #ffc9dd ;
+    border: 1px solid #ffc9dd;
+    font-size: 14px;
+    color:rgba(39, 33, 66, 0.4);
+}
+
+.weatherapp-info{
+    display: flex;
+    justify-content: space-between;
+    padding:20px
+}
+
+.weather-conditions{
+    display:flex;
+    padding:10px;
+}
+
+.weather-condition-icon{
+    font-weight:400;
+    font-size:16px;
+
+}
+
+.temperature-value{
+    font-weight: 900;
+    font-size: 88px;
+}
+
+.temperature-metric{
+    font-weight: 400;
+    font-size: 28px;
+}
+
+footer {
+    border-top: 1px solid #f9f7fe;
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}

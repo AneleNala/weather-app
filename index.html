@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 </head>
 <body>
 <div class="background-style">
@@ -29,15 +30,15 @@
         Soweto
      </h1>  
      <p>
-       Saturday, 13:00, cloudy
+     <span id="time"> Saturday, 13:00</span>,<span id="weather-description">cloudy</span>
      </br>
-     Humidity , <strong>100%</strong> ,
-     Windy: <strong>10 knots</strong>
+     Humidity , <strong id="humid">88</strong> % ,
+     Windy: <strong id="wind">10</strong>km/h
      </p> 
     </div>
      <div class="weather-conditions">
-        <div class="weather-condition-icon">🌤️</div>
-        <div class="temperature-value">12</div>
+        <div class="weather-icon" id="weather-icon">☀️</div>
+        <div class="temperature-value" id="temperature-value">12</div>
         <div class="temperature-metric">°C</div>
     </div>
 </div>     

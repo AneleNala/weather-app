@@ -12,15 +12,20 @@
 <body>
 <div class="background-style">
      <header>
-     <form>
-        <input type="search" placeholder="Enter your city..."  required class="search-form" >
+     <form id="search-form">
+        <input 
+        type="search"
+        placeholder="Enter your city..."  
+        required 
+        class="search-form" 
+        id="search-input">
         <input type="submit" value="Search" class="submit-button">
      </form> 
      </header>
      <main>
 <div class="weatherapp-info">
     <div>   
-     <h1>
+     <h1 class="current-city" id="current-city">
         Soweto
      </h1>  
      <p>

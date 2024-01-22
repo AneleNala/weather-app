@@ -80,6 +80,25 @@ a{
     font-size: 28px;
 }
 
+.weather-forecast{
+    margin-top:20px;
+    text-align: center;
+}
+
+.weather-forecast-day{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.weather-forecast-tempmin{
+    font-weight: 500;
+    color:#f65282;
+}
+
+.weather-forecast-tempmax{
+    color: rgba(39, 33, 66, 0.4);
+    font-weight:500;
+}
 footer {
     border-top: 1px solid #f9f7fe;
     padding: 30px 0 0 0;

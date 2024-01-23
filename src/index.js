@@ -106,4 +106,4 @@ function displayForecast(response) {
 }
 
 
-searchCity("Paris");
+searchCity("Cape Town");
